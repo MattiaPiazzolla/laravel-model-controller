@@ -11,8 +11,8 @@ class PageController extends Controller
         $title = 'My Top 10 Movies';
 
         $movies = Movie::all();
-        dd($movies);
 
-        return view("home" ,compact("title"));
+
+        return view("home" ,compact("title","movies"));
     }
 }
