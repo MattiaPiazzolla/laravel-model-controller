@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header>
+    <header class=" bg-body-tertiary">
         @include('partials.header')
     </header>
     <main>
