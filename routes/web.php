@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use app\Http\Controllers\PageController as PageController;
+use App\Http\Controllers\PageController as PageController;
 
 /*
 |--------------------------------------------------------------------------
