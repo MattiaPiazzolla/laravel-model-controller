@@ -1,6 +1,7 @@
 @extends('layouts.app')
 @section('content')
     <div class="container py-5 ">
+        <h1 class="m-5 text-center">{{ $title }}</h1>
         <table class="table table-dark table-hover">
             <thead>
                 <tr>
